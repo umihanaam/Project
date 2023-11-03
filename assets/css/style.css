@@ -4,15 +4,38 @@
     box-sizing: border-box;
     font-family: Montserrat, sans-serif;
 }
-#hero header{
+
+#hero header {
     height: 15vh;
     margin-left: 130px;
-    margin-top: 10px;
+    margin-top: 15px;
     display: flex;
-    justify-content: space-between;
-    -webkit-text-fill-color: rgb(41, 151, 41);
-    font-size: x-large;
+    justify-content: space-between;  
 }
-#hero header button{
-    color: chartreuse;
+
+#hero header h1{
+    -webkit-text-fill-color: rgb(6, 150, 93);
+    font-size: xx-large;
+}
+
+#hero header div button{
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    color: rgb(236, 236, 236);
+    background-color: rgb(6, 150, 93); 
+    display: flex;
+    margin-right: 150px;
+    margin-top: 15px;
+    font-weight: 900;
+    border: 0;
+    
+}
+#hero header div button:hover{
+    background-color: rgb(5, 124, 77) ;
+}
+#hero main h1{
+     position: absolute;
+     top: 20%;
+     left: 50%;
+     transform: translate(-50%, -50%);
 }

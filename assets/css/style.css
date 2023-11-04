@@ -12,13 +12,19 @@
     display: flex;
     justify-content: space-between;  
 }
+#hero header{
+       
+
+}
 
 #hero header h1{
+    
     -webkit-text-fill-color: rgb(6, 150, 93);
     font-size: xx-large;
 }
 
 #hero header div button{
+    
     padding: 1rem 2rem;
     border-radius: 2rem;
     color: rgb(236, 236, 236);
@@ -33,9 +39,31 @@
 #hero header div button:hover{
     background-color: rgb(5, 124, 77) ;
 }
-#hero main h1{
+#hero main {
      position: absolute;
      top: 20%;
      left: 50%;
      transform: translate(-50%, -50%);
 }
+#hero main h1{
+    font-size: 40px;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#hero .location{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 45px;
+}
+#hero input[type="text"], textarea{
+    border: none;
+    outline: none;
+}
+

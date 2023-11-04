@@ -1,36 +1,45 @@
 *{
-    margin: flex;
-    padding: 0px;
+    
+    margin: 0;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
     box-sizing: border-box;
-    font-family: Montserrat, sans-serif;
+    font-family: "Glovo","Arial","Helvetica Neue",Helvetica,sans-serif;
+    font-weight: 300;
+    
+}
+#hero section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
 }
 
 #hero header {
-    height: 15vh;
-    margin-left: 130px;
-    margin-top: 15px;
     display: flex;
     justify-content: space-between;  
 }
-#hero header{
-       
-
-}
 
 #hero header h1{
+    position:sticky;
     
     -webkit-text-fill-color: rgb(6, 150, 93);
     font-size: xx-large;
 }
 
 #hero header div button{
-    
-    padding: 1rem 2rem;
+
+    position: fixed;
+    padding: 0.7rem 2rem;
     border-radius: 2rem;
     color: rgb(236, 236, 236);
     background-color: rgb(6, 150, 93); 
     display: flex;
-    margin-right: 150px;
+    margin-right:  150px;;
     margin-top: 15px;
     font-weight: 900;
     border: 0;
@@ -40,13 +49,16 @@
     background-color: rgb(5, 124, 77) ;
 }
 #hero main {
-     position: absolute;
+     position: fixed;
      top: 20%;
      left: 50%;
      transform: translate(-50%, -50%);
 }
 #hero main h1{
+    position: relative;
     font-size: 40px;
+    font-size: 2vw;
+    font-weight: bold;
     clear: both;
     display: inline-block;
     overflow: hidden;
@@ -67,3 +79,5 @@
     outline: none;
 }
 
+    
+}

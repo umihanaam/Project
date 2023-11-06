@@ -194,6 +194,15 @@ body{
     width: 100px;
 }
 
+#kfc {
+    background-image: url(/assets/images/kfc.png);
+    background-size: 100px 130px;
+    height: 100px;  
+    width: 100px;
+}
+
+
+
 
 
 

@@ -187,6 +187,15 @@ body{
     width: 100px;
 }
 
+#snackNSweets {
+    background-image: url(/assets/images/sweetsNsnacks.png);
+    background-size: 100px 130px;
+    height: 100px;  
+    width: 100px;
+}
+
+
+
 
 
 

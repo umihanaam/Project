@@ -172,4 +172,11 @@ body{
     height: 100px;  
     width: 100px;
 }
+#shopsNGifts {
+    background-image: url(/assets/images/shopsandgifts.png);
+    background-size: 100px 130px;
+    height: 100px;  
+    width: 100px;
+}
+
 

@@ -160,3 +160,9 @@ body{
         object-fit: cover;
         border-radius: 1rem;
     }
+#food {
+    background-image: url(/assets/images/food.png);
+    background-size: 100px 130px;
+    height: 100px;  
+    width: 100px;
+}

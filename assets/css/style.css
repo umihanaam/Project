@@ -59,7 +59,7 @@ body{
 
 #hero main {
     
-     position: fixed;
+     position: absolute;
      top: 20%;
      left: 25%;
      transform: translate(-50% -50%);
@@ -75,13 +75,17 @@ body{
     display: inline-block;
     overflow: hidden;
     white-space: nowrap;
-    
+}
 
+.nav{
+margin-left: 250px;
+margin-right: 250px;
 }
 
 .location{
-    display: flex;
-    position: absolue;
+    display:block;
+    position: absolute;
+    overflow: hidden;
     justify-self: center;
     align-items: center;
     border: 1px solid #ccc;
@@ -113,7 +117,7 @@ body{
     position: relative;
     display: block;
     width: calc(280% + 1.3px);
-    height: 500px;
+    height: 1100px;
 }
 
 .custom-shape-divider-top-1699186602 .shape-fill {
@@ -121,7 +125,9 @@ body{
 }
 
 .buttonBar{
-    position: fixed;
+    margin-left: 150px;
+    position: absolute;
+    margin-top: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -143,6 +149,7 @@ body{
 .grid-item1 {
     flex-direction:column-reverse;
     justify-self:first baseline;
+    margin-top: 300px;
     z-index: 1;
     grid-column-start: 1;
     grid-column-end: 5;
@@ -160,46 +167,72 @@ body{
         object-fit: cover;
         border-radius: 1rem;
     }
+
 #food {
     background-image: url(/assets/images/food.png);
     background-size: 100px 130px;
     height: 100px;  
     width: 100px;
+    border-radius: 5rem;
 }
+  #food:hover{
+    transform: scale(1.1);
+  }
+
 #customD{
     background-image: url(/assets/images/customDeliveries.png);
     background-size: 100px 130px;
     height: 100px;  
     width: 100px;
+    border-radius: 5rem;
 }
+  #customD:hover{
+    transform: scale(1.1);
+  }
 
 #shopsNGifts {
     background-image: url(/assets/images/shopsandgifts.png);
     background-size: 100px 130px;
     height: 100px;  
     width: 100px;
+    border-radius: 5rem;
 }
+  #shopsNGifts:hover{
+    transform: scale(1.1);
+  }
 
 #supermarket {
     background-image: url(/assets/images/supermarket.png);
     background-size: 100px 130px;
     height: 100px;  
     width: 100px;
+    border-radius: 5rem;
 }
+  #supermarket:hover{
+    transform: scale(1.1);
+  }
 
 #snackNSweets {
     background-image: url(/assets/images/sweetsNsnacks.png);
     background-size: 100px 130px;
     height: 100px;  
     width: 100px;
+    border-radius: 5rem;
 }
+  #snackNSweets:hover{
+    transform: scale(1.1);
+  }
 
 #kfc {
     background-image: url(/assets/images/kfc.png);
     background-size: 100px 130px;
     height: 100px;  
     width: 100px;
+    border-radius: 5rem;   
 }
+  #kfc:hover{
+    transform: scale(1.1);
+  }
 
 
 

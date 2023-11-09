@@ -121,7 +121,7 @@ margin-right: 250px;
 }
 
 .custom-shape-divider-top-1699186602 .shape-fill {
-    fill: #FFD545;
+    fill: rgb(256, 193, 49);
 }
 
 .buttonBar{
@@ -133,9 +133,10 @@ margin-right: 250px;
     align-items: center;
     list-style: none;
     gap: 20px;
-    height: 100px;
-    
+    height: 100px;   
 }
+
+
 
 .grid-container {
     display: grid;
@@ -168,6 +169,17 @@ margin-right: 250px;
         border-radius: 1rem;
     }
 
+    .grid-item img:hover{
+        -webkit-transition: 0.2s ease-out;
+        -moz-transition: 0.2s ease-out;
+        -o-transition: 0.2s ease-out;
+        -ms-transition: 0.2s ease-out;
+        transition: 0.2s ease-out;
+         -webkit-transform:scale(1.1); 
+        transform:scale(1.1);
+
+    }
+
 #food {
     background-image: url(/assets/images/food.png);
     background-size: 100px 130px;
@@ -177,6 +189,14 @@ margin-right: 250px;
 }
   #food:hover{
     transform: scale(1.1);
+    webkit-transition: 0.2s ease-out;
+        -moz-transition: 0.2s ease-out;
+        -o-transition: 0.2s ease-out;
+        -ms-transition: 0.2s ease-out;
+        transition: 0.2s ease-out;
+         -webkit-transform:scale(1.1); 
+        transform:scale(1.1);
+
   }
 
 #customD{
@@ -188,6 +208,14 @@ margin-right: 250px;
 }
   #customD:hover{
     transform: scale(1.1);
+    webkit-transition: 0.2s ease-out;
+        -moz-transition: 0.2s ease-out;
+        -o-transition: 0.2s ease-out;
+        -ms-transition: 0.2s ease-out;
+        transition: 0.2s ease-out;
+         -webkit-transform:scale(1.1); 
+        transform:scale(1.1);
+
   }
 
 #shopsNGifts {
@@ -199,6 +227,14 @@ margin-right: 250px;
 }
   #shopsNGifts:hover{
     transform: scale(1.1);
+    webkit-transition: 0.2s ease-out;
+        -moz-transition: 0.2s ease-out;
+        -o-transition: 0.2s ease-out;
+        -ms-transition: 0.2s ease-out;
+        transition: 0.2s ease-out;
+         -webkit-transform:scale(1.1); 
+        transform:scale(1.1);
+
   }
 
 #supermarket {
@@ -210,6 +246,14 @@ margin-right: 250px;
 }
   #supermarket:hover{
     transform: scale(1.1);
+    webkit-transition: 0.2s ease-out;
+        -moz-transition: 0.2s ease-out;
+        -o-transition: 0.2s ease-out;
+        -ms-transition: 0.2s ease-out;
+        transition: 0.2s ease-out;
+         -webkit-transform:scale(1.1); 
+        transform:scale(1.1);
+
   }
 
 #snackNSweets {
@@ -221,6 +265,14 @@ margin-right: 250px;
 }
   #snackNSweets:hover{
     transform: scale(1.1);
+    webkit-transition: 0.2s ease-out;
+        -moz-transition: 0.2s ease-out;
+        -o-transition: 0.2s ease-out;
+        -ms-transition: 0.2s ease-out;
+        transition: 0.2s ease-out;
+         -webkit-transform:scale(1.1); 
+        transform:scale(1.1);
+
   }
 
 #kfc {
@@ -232,7 +284,17 @@ margin-right: 250px;
 }
   #kfc:hover{
     transform: scale(1.1);
+    webkit-transition: 0.2s ease-out;
+        -moz-transition: 0.2s ease-out;
+        -o-transition: 0.2s ease-out;
+        -ms-transition: 0.2s ease-out;
+        transition: 0.2s ease-out;
+         -webkit-transform:scale(1.1); 
+        transform:scale(1.1);
+
   }
+
+
 
 
 

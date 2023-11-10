@@ -6,9 +6,7 @@
     font-weight: 300;
     
 }
-body{
-    min-height: 100vh;
-}
+
 #hero {
     position: relative;
     width: 100%;
@@ -58,15 +56,18 @@ body{
 }
 
 #hero main {
-    
+    background-color: blue;
+    padding: 10vw;
+    margin-left: 25%;
+    justify-content: center;
+    object-fit: scale-down;
+    width: 100%;
      position: absolute;
-     top: 20%;
-     left: 25%;
-     transform: translate(-50% -50%);
-    
+  
 }
 
-#hero main h1{
+#hero main div h1{
+    
     position: relative;
     font-size: 40px;
     font-size: 2vw;
@@ -78,13 +79,18 @@ body{
 }
 
 .nav{
+
+display: block;
 margin-left: 250px;
 margin-right: 250px;
+align-items: center;
+justify-content: center;
+
 }
 
 .location{
     display:block;
-    position: absolute;
+    position: absolute;   
     overflow: hidden;
     justify-self: center;
     align-items: center;
@@ -284,7 +290,41 @@ margin-right: 250px;
 }
   #kfc:hover{
     transform: scale(1.1);
-    webkit-transition: 0.2s ease-out;
+  }
+
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: 16rem 16rem 16rem 16rem;
+    align-items: center;
+    justify-content: 20rem;
+    column-gap: 1rem;
+    row-gap: 2rem;
+}
+
+.grid-item2 {
+    flex-direction:column-reverse;
+    justify-self:first baseline;
+   margin-top: 100px;
+    z-index: 1;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    display: flex;
+    align-items: center;
+    height: vh;
+    font-weight: 600;
+    font-size: 2rem;
+  }
+
+    .grid-item-img img {
+        display: flex;
+        height: 100px;
+        width: 250px;
+        object-fit: cover;
+        border-radius: 1rem;
+    }
+
+    .grid-item-img img:hover{
+        -webkit-transition: 0.2s ease-out;
         -moz-transition: 0.2s ease-out;
         -o-transition: 0.2s ease-out;
         -ms-transition: 0.2s ease-out;
@@ -292,8 +332,7 @@ margin-right: 250px;
          -webkit-transform:scale(1.1); 
         transform:scale(1.1);
 
-  }
-
+    }
 
 
 

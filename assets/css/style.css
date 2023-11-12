@@ -304,27 +304,6 @@ justify-content: center;
     padding: 50px;
   }
 
-  .custom-shape-divider-bottom-1699813725 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-bottom-1699813725 svg {
-    position: relative;
-    display: block;
-    width: calc(155% + 1.3px);
-    height: 260px;
-}
-
-.custom-shape-divider-bottom-1699813725 .shape-fill {
-    fill: #C3FFF4;
-}
-
-
   .grid-container2 {
     display: grid;
     grid-template-columns: 16rem 16rem 16rem 16rem;
@@ -366,6 +345,59 @@ justify-content: center;
         transform:scale(1.1);
 
     }
+
+.image {
+    position: absolute;
+    justify-self: center;
+    margin-top: 500px;
+}
+
+#sarajevo div ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    gap: 120px;
+    justify-content: center;
+    margin-left: 400px;
+}
+
+.image h1{
+    margin-top: 30px;
+    font-weight: 750;
+    font-size: 35px;
+}
+
+.image img{
+    margin-left: 130px;
+}
+
+.setButtons button {
+    margin-top: 300px;
+    width: 7em ;
+    height: 2.5em;
+    border-radius: 2rem;
+    background-color: rgb(255, 242, 209); 
+    display: flex;
+    position: absolute;
+    border: 0;  
+    font-size: 16px;
+    line-height: inherit;
+    box-sizing: border-box;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    
+}
+
+.setButtons button:hover{
+    background-color: rgb(256, 193, 49);
+    cursor: pointer;
+
+}
+
 
 
 

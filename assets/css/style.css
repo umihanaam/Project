@@ -56,13 +56,11 @@
 }
 
 #hero main {
-    
-    padding: 10vw;
-    margin-left: 25%;
+   margin-top: 10vh;
     justify-content: center;
     object-fit: scale-down;
-    width: 100%;
-     position: absolute;
+    position: absolute;
+    
   
 }
 
@@ -123,7 +121,7 @@ justify-content: center;
     position: relative;
     display: block;
     width: calc(280% + 1.3px);
-    height: 1100px;
+    height: 1000px;
 }
 
 .custom-shape-divider-top-1699186602 .shape-fill {
@@ -148,15 +146,17 @@ justify-content: center;
     display: grid;
     grid-template-columns: 16rem 16rem 16rem 16rem;
     align-items: center;
-    justify-content: 20rem;
-    column-gap: 1rem;
-    row-gap: 2rem;
+    justify-content: 20em;
+    column-gap: 1em;
+    row-gap: 2em;
 }
 
 .grid-item1 {
     flex-direction:column-reverse;
     justify-self:first baseline;
+   
     margin-top: 300px;
+   
     z-index: 1;
     grid-column-start: 1;
     grid-column-end: 5;
@@ -195,7 +195,7 @@ justify-content: center;
 }
   #food:hover{
     transform: scale(1.1);
-    webkit-transition: 0.2s ease-out;
+
         -moz-transition: 0.2s ease-out;
         -o-transition: 0.2s ease-out;
         -ms-transition: 0.2s ease-out;
@@ -214,7 +214,7 @@ justify-content: center;
 }
   #customD:hover{
     transform: scale(1.1);
-    webkit-transition: 0.2s ease-out;
+   
         -moz-transition: 0.2s ease-out;
         -o-transition: 0.2s ease-out;
         -ms-transition: 0.2s ease-out;
@@ -233,7 +233,7 @@ justify-content: center;
 }
   #shopsNGifts:hover{
     transform: scale(1.1);
-    webkit-transition: 0.2s ease-out;
+  
         -moz-transition: 0.2s ease-out;
         -o-transition: 0.2s ease-out;
         -ms-transition: 0.2s ease-out;
@@ -252,7 +252,6 @@ justify-content: center;
 }
   #supermarket:hover{
     transform: scale(1.1);
-    webkit-transition: 0.2s ease-out;
         -moz-transition: 0.2s ease-out;
         -o-transition: 0.2s ease-out;
         -ms-transition: 0.2s ease-out;
@@ -271,7 +270,7 @@ justify-content: center;
 }
   #snackNSweets:hover{
     transform: scale(1.1);
-    webkit-transition: 0.2s ease-out;
+
         -moz-transition: 0.2s ease-out;
         -o-transition: 0.2s ease-out;
         -ms-transition: 0.2s ease-out;
@@ -292,6 +291,40 @@ justify-content: center;
     transform: scale(1.1);
   }
 
+  #sarajevo {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 50px;
+  }
+
+  .custom-shape-divider-bottom-1699813725 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1699813725 svg {
+    position: relative;
+    display: block;
+    width: calc(155% + 1.3px);
+    height: 260px;
+}
+
+.custom-shape-divider-bottom-1699813725 .shape-fill {
+    fill: #C3FFF4;
+}
+
+
   .grid-container2 {
     display: grid;
     grid-template-columns: 16rem 16rem 16rem 16rem;
@@ -304,7 +337,7 @@ justify-content: center;
 .grid-item2 {
     flex-direction:column-reverse;
     justify-self:first baseline;
-   margin-top: 100px;
+    
     z-index: 1;
     grid-column-start: 1;
     grid-column-end: 5;

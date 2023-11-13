@@ -52,6 +52,7 @@
 }
 
 #hero header div button:hover{
+    cursor: pointer;
     background-color: rgb(5, 124, 77) ;
 }
 
@@ -302,7 +303,28 @@ justify-content: center;
     align-items: center;
     min-height: 400px;
     padding: 50px;
+    
   }
+
+  .wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(155% + 1.3px);
+    height: 260px;
+}
+
+.wave .shape-fill {
+    fill: #E9F8F5;
+}
 
   .grid-container2 {
     display: grid;
@@ -397,6 +419,83 @@ justify-content: center;
     cursor: pointer;
 
 }
+
+.together {
+    position: absolute;
+    justify-self: center;
+    margin-top: 1270px;
+}
+
+.together h1{
+    margin-top: 30px;
+    font-weight: 750;
+    font-size: 35px;
+}
+
+.together img{
+    margin-left: 70px; 
+}
+
+#letsDoIt{
+    background-color: #E9F8F5;
+
+}
+
+.grid4-container {
+    display: grid;
+    margin-right: 300px;
+    grid-template-columns: 50px 50px 50px;
+    justify-content: center;
+    column-gap: 350px;
+  }
+
+  
+  .grid4-item{
+   
+    width: 400px;
+    margin-right: 150px;
+  }
+
+  .grid4-item p {
+   
+    text-align: center;
+    font-size: 18px;
+    margin-left: 40px;
+    
+  }
+  .grid4-container h2 {
+    margin-left: 60px;
+    white-space: nowrap;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+.grid4-item button {
+    border-radius: 2rem;
+    width: 120px;
+    height: 30px;
+    color: rgb(236, 236, 236);
+    background-color: rgb(6, 150, 93); 
+    display: flex;
+    margin-left: 90px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-weight: 900;
+    border: 0;  
+}
+
+.grid4-item button:hover{
+    background-color: rgb(5, 124, 77) ;
+    cursor: pointer;
+}
+
+
+ 
+
 
 
 
